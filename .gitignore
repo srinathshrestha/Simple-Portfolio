@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Editor and IDE files
+*.idea/
+*.vscode/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Static file cache
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Render-specific
+render.yaml
+
+# Miscellaneous
+*.bak
+*.tmp

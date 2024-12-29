@@ -1,0 +1,47 @@
+{% extends "base.html" %} {% block title %}Projects - Srinath's Portfolio{%
+endblock %} {% block content %}
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <strong>Label-Mint:</strong> A SaaS data-labeling platform using FastAPI
+      and GCP. Features include token rewards for labeled data and RabbitMQ for
+      task management.
+      <br />
+      <strong>GitHub:</strong>
+      <a href="https://github.com/srinathshrestha/Label-Mint" target="_blank">
+        View Repository
+      </a>
+    </li>
+    <li>
+      <strong>Movie Streaming App:</strong> FastAPI backend with GCP hosting.
+      Supports simultaneous streams with Google OAuth integration.
+      <br />
+      <strong>GitHub:</strong>
+      <a
+        href="https://github.com/srinathshrestha/BeingChilling"
+        target="_blank"
+      >
+        View Repository
+      </a>
+    </li>
+    <li>
+      <strong>Indian Sign Language Tool:</strong> Real-time ISL translation with
+      Redis and milestone-based interactive learning.
+      <br />
+      <strong>GitHub:</strong>
+      <a
+        href="https://github.com/srinathshrestha/Isl_traslator"
+        target="_blank"
+      >
+        View Repository
+      </a>
+    </li>
+  </ul>
+  <p>
+    <em>Note:</em> These projects were deployed on GCP but are currently
+    inactive due to budget constraints. However, the repositories are fully
+    functional and can be redeployed.
+  </p>
+</section>
+{% endblock %}
